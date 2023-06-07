@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgb(207, 216, 226);
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background-color: #416994;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.back-button:hover {
+  background-color: #588bc2;
+}
+
+.ShowList {
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.ShowList .box {
+  height: 530px;
+  width: 270px;
+  background-color: lavender;
+  border-radius: 4%;
+  box-shadow: 5px 10px 8px 10px #a39c9c;
+}
+
+.h2 {
+  margin-bottom: 20px;
+  color: beige;
+}
+
+.ShowList h3 {
+  margin-bottom: 5px;
+}
+
+.ShowList p {
+  margin-bottom: 10px;
+}
+
+.ShowList button {
+  background-color: #416994;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.ShowList button:hover {
+  background-color: #588bc2;
+}
+.ShowSummary {
+  text-align: center;
+  padding: 20px;
+}
+
+.ShowSummary img {
+  width: 30vw;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  box-shadow: 40px 15px 50px 10px #a59999;
+}
+
+.ShowSummary p {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.ShowSummary button {
+  padding: 10px 20px;
+  background-color: #416994;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ShowSummary button:hover {
+  background-color: #0056b3;
+}
+
+.ShowSummary a {
+  display: block;
+  font-size: 17px;
+  margin: auto;
+  width: 150px;
+  margin-top: 20px;
+  color: #416994;
+  text-decoration: none;
+}
+
+.ShowSummary a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.booking-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.BookingForm {
+  text-align: center;
+}
+
+.BookingForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.BookingForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.BookingForm button {
+  padding: 10px 20px;
+  background-color: #416994;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.BookingForm button:hover {
+  background-color: #0056b3;
+}
